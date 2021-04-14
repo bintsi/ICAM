@@ -6,7 +6,8 @@
 ##################################################
 import os
 import torchvision
-from tensorboardX import SummaryWriter
+# from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 
 
 class Saver():
